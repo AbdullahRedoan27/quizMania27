@@ -1,10 +1,10 @@
-import React, {useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 
 const Statistics = () => {
-    const [Statdata,setStatdata] = useState(0)
+    const [Statdata, setStatdata] = useState(0)
     useEffect(() => {
         axios.get('https://openapi.programming-hero.com/api/quiz')
             .then(res => {

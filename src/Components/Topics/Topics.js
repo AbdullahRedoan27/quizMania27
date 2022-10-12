@@ -9,11 +9,11 @@ const Topics = () => {
     return (
         <div>
             <Header></Header>
-            <div className='lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 grid grid-cols-1 top-1/3 '>
+            <div className='lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 grid grid-cols-1 mt-0 '>
                 {
                     topics.map(topic => <Topic
                         key={topic.id}
-                        topic = {topic}
+                        topic={topic}
                     ></Topic>)
                 }
             </div>
