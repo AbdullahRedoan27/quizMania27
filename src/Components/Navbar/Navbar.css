@@ -1,0 +1,15 @@
+#topics{
+    margin-right: 10%;
+}
+#statistics{
+    margin-right: 10%;
+}
+#blog{
+    margin-right: 30%;
+}
+
+.active{
+    background-color: #0f172a;
+    padding: 2px 10px;
+    border-radius: 15px;
+}

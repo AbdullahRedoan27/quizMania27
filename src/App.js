@@ -4,6 +4,8 @@ import Main from './Layout/Main';
 import Topics from './Components/Topics/Topics';
 import Statistics from './Components/Statistics/Statistics';
 import Blog from './Components/Blog/Blog';
+import NotFound from './Components/NotFound/NotFound';
+import Quizpage from './Components/Quizpage/Quizpage';
 
 
 
@@ -14,7 +16,7 @@ function App() {
       element: <Main></Main>,
       children: [
         {
-          path: '/',
+          path: 'topics',
           loader: ()=>fetch(`https://openapi.programming-hero.com/api/quiz`),
           element: <Topics></Topics>
         },
@@ -26,7 +28,18 @@ function App() {
           path: '/Blog',
           element: <Blog></Blog>
         },
+        {
+          path: '/quizquestionno/:id',
+          loader: async ({params}) => {
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
+          },
+          element: <Quizpage></Quizpage>
+        }
       ]
+    },
+    {
+      path: '*',
+      element: <NotFound></NotFound>
     }
   ]);
   return (
