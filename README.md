@@ -1,6 +1,6 @@
 # QuizMania
 
-### Live Link: 
+### Live Link: https://quizmania27.netlify.app/topics
 
 The name of this website is _Quiz Mania_. Basically it's a quiz practicing site. There are some questions organized according to subjects. Whoever wants to practice or revise their knowledge about the topics, can easily access and 
 answer the quizes and revise their knowledge.
@@ -17,4 +17,3 @@ Key features of this website:
 
     5.The website is fully responsive. Anyone can use it on any device.
 
-    
