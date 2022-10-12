@@ -2,8 +2,11 @@
 
 ### Live Link: 
 
-The name of this website is _Quiz Mania_. Basically it's a quiz practicing site. There are some questions organized according to subjects. Whoever wants to practice or revise their knowledge about the topics, can easily access and answer the quizes and revise their knowledge.
+The name of this website is _Quiz Mania_. Basically it's a quiz practicing site. There are some questions organized according to subjects. Whoever wants to practice or revise their knowledge about the topics, can easily access and 
+answer the quizes and revise their knowledge.
+
 Key features of this website:
+
     1. Quizes on 4 different topics, which are placed into the home page.
 
     2. A linechart comparison shown in the Statistics page among the number of questions in the topics.
