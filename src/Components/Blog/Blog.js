@@ -10,6 +10,7 @@ const Blog = () => {
                     This new API solves one major problem–prop drilling. Even if you’re not familiar with the term, if you’ve worked on a React.js app, it has probably happened to you. Prop drilling is the processing of getting data from component A to component Z by passing it through multiple layers of intermediary React components. Component will receive props indirectly and you, the React Developer will have to ensure everything works out right.</p>
             </div>
 
+            {/* just a hudai comment */}
             <div>
                 <h4 className='text-2xl font-semibold'>2. Why we use React Router?</h4>
                 <p className='text-justify'>Routing is a process in which a user is directed to different pages based on their action or request. ReactJS Router is mainly used for developing Single Page Web Applications. React Router is used to define multiple routes in the application. When a user types a specific URL into the browser, and if this URL path matches any 'route' inside the router file, the user will be redirected to that particular route.
